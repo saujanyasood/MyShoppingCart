@@ -1,51 +1,41 @@
-'use strict';
+"use strict";
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Categories', {
+    return queryInterface.createTable("Categories", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       name: {
         type: Sequelize.STRING,
-        allowNull: false
+        allowNull: false,
       },
       slug: {
         type: Sequelize.STRING,
-        allowNull: false
-      },
-      description: {
-        type: Sequelize.STRING,
-        allowNull: false
-      },
-      metaDescription: {
-        type: Sequelize.STRING
-      },
-      metaKeywords: {
-        type: Sequelize.STRING
+        allowNull: false,
       },
       categoryStatus: {
         type: Sequelize.ENUM,
-        values: ['active', 'inactive'],
-        defaultValue: 'active'
+        values: ["active", "inactive"],
+        defaultValue: "active",
       },
       isDeleted: {
         type: Sequelize.BOOLEAN,
-        defaultValue: false
+        defaultValue: false,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Categories');
-  }
+    return queryInterface.dropTable("Categories");
+  },
 };

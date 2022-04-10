@@ -16,16 +16,16 @@
 
 .category__selected:hover {
   color: gray;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
 }
 
 .category__not-selected {
-  color: darkmagenta;
+  /* color: darkmagenta; */
 }
 
 .category__not-selected:hover {
-  color: darkmagenta;
-  text-decoration-line: underline;
+  /* color: darkmagenta; */
+  /* text-decoration-line: underline; */
 }
 
 /*# sourceMappingURL=category.css.map */

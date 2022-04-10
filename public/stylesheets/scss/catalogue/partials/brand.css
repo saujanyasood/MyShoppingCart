@@ -12,6 +12,7 @@
 .brand__selected {
   color: gray;
   text-decoration-line: underline;
+  text-decoration: none;
 }
 
 .brand__selected:hover {
@@ -20,11 +21,11 @@
 }
 
 .brand__not-selected {
-  color: darkmagenta;
+  /* color: darkmagenta; */
 }
 
 .brand__not-selected:hover {
-  color: darkmagenta;
+  /* color: darkmagenta; */
   text-decoration-line: underline;
 }
 

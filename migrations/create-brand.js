@@ -14,15 +14,6 @@ module.exports = {
       slug: {
         type: Sequelize.STRING
       },
-      description: {
-        type: Sequelize.STRING
-      },
-      metaDescription: {
-        type: Sequelize.STRING
-      },
-      metaKeywords: {
-        type: Sequelize.STRING
-      },
       brandStatus: {
         type: Sequelize.ENUM,
         values: ['active', 'inactive'],

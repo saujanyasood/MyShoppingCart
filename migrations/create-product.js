@@ -16,24 +16,6 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      description: {
-        type: Sequelize.STRING
-      },
-      metaDescription: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      metaKeywords: {
-        type: Sequelize.STRING
-      },
-      sku: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
-      model: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
       price: {
         type: Sequelize.DECIMAL,
         allowNull: false,
