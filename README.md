@@ -45,7 +45,7 @@ To start:
 
 - Project structure
 
-  [![Shopping Cart-Project-Structure](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/ProjectStructure.png)]
+  [![Shopping Cart-Project-Structure](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/ProjectStucture.png)]
 
 - Database Schema:
 
