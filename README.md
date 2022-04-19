@@ -45,11 +45,11 @@ To start:
 
 - Project structure
 
-  [![Shopping Cart-Project-Structure](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/ProjectStucture.png)]
+  ![Shopping Cart-Project-Structure](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/ProjectStucture.png)
 
 - Database Schema:
 
-  [![Shopping Cart-Schema Diagram](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/Schema.png)]
+  ![Shopping Cart-Schema Diagram](https://github.com/saujanyasood/MyShoppingCart/blob/master/public/images/Schema.png)
 
 ## Built With
 
